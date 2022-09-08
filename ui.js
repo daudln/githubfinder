@@ -50,7 +50,7 @@ class UI {
                   class="list-group-item list-group-item-action d-flex gap-3 py-3"
                   aria-current="true"
                 >
-                  <i class="fa fa-location fa-xl mt-4 flex-shrink-0"></i>
+                  <i class="bi bi-geo-alt mt-4 flex-shrink-0"></i>
                   <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
                       <h6 class="mb-0">Location</h6>
