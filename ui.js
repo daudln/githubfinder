@@ -37,7 +37,7 @@ class UI {
                   class="list-group-item list-group-item-action d-flex gap-3 py-3"
                   aria-current="true"
                 >
-                  <i class="bi bi-bank2 h4 mt-2 text-danger"></i>
+                  <i class="bi bi-building h4 mt-2 text-danger"></i>
                   <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
                       <h6 class="mb-0">Company</h6>
@@ -63,7 +63,7 @@ class UI {
                   class="list-group-item list-group-item-action d-flex gap-3 py-3"
                   aria-current="true"
                 >
-                  <i class="bi bi-building h4"></i>
+                  <i class=" h4"></i>
                   <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
                       <h6 class="mb-0">Bio</h6>
