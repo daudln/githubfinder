@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIthub finder</title>
+
+    <link
+      rel="stylesheet"
+      href="http://127.0.0.1/public/bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://127.0.0.1/public/bootstrap/bootswatch/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://172.17.0.1/public/fontawesome/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://127.0.0.1/public/bootstrap/icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> GITHUB FINDER </a>
+      </div>
+    </nav>
+    <div class="container" id="container">
+      <div class="card card-body bg-secondary mt-4" id="card">
+        <h3 class="text-dark">Search github user</h3>
+        <p>Enter github username bellow to search for profile and repos</p>
+        <form action="">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Type to find github user"
+            id="gitfinder"
+          />
+        </form>
+      </div>
+    </div>
+
+    <div id="profile" class="container"></div>
+    <div class="container"><h2 class="mt-4">Latest repos</h2></div>
+    <div id="repose" class="container"></div>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted"
+            >&copy;
+            <script>
+              const year = new Date();
+              document.write(year.getFullYear());
+            </script>
+            Github finder, Inc</span
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="http://127.0.0.1/public/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./github.js"></script>
+  <script src="./ui.js"></script>
+  <script src="./index.js"></script>
+</html>
