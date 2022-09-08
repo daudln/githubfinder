@@ -91,30 +91,7 @@ class UI {
       `;
   }
 
-  showRepos(data) {
-    let repos = "";
-    data.forEach((repo) => {
-      repos += `
-            <div class ="card card-body bg-secondary">
-                
-                <div class="row">
-                    <div class = "col-md-4">
-                        <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="h4">
-                            <span class="badge h2 bg-success">Watcher count: ${repo.watchers_count}</span>
-                            <span class="badge h2 bg-primary">Number of forks: ${repo.forks_count}</span>
-                            <span class="badge h2 bg-info">Stargazers counts: ${repo.stargazers_count}</span>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        `;
-    });
-    document.getElementById("repose").innerHTML = repos;
-  }
+  
   clearProfile() {
     this.profile.innerHTML = "";
     this.clearRepos();
